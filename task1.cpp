@@ -9,7 +9,7 @@
 using namespace std;
 
 int main() {
-    // Seed the random number generator with the current time
+    
     srand((unsigned int)(time(0)));
 
     
@@ -21,11 +21,11 @@ int main() {
     cout << "Try to guess the secret number between 1 and 100.\n\n";
 
     do {
-        // Get user's guess
+       
         cout << "Enter your guess: ";
         cin >> userGuess;
 
-        // Provide feedback
+        
         if (userGuess < secretNumber) {
             cout << "Too low! Try again.\n";
         } else if (userGuess > secretNumber) {
