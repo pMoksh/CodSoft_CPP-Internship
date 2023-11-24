@@ -1,3 +1,7 @@
+//CODSOFT C++ Programming
+//Moksh Pohoja
+//Dr. Akhilesh Das Gupta Institute of Technology
+//Task 1 Number Guessing game
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
